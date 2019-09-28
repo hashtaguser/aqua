@@ -1,0 +1,329 @@
+/* Heading */
+body{
+	background-image: url("C:/Users/roboris/Desktop/aqua site/IMAGES/bggif.gif");
+	 background-repeat: no-repeat;
+	 background-attachment: fixed;
+	 background-size:cover;
+	 opacity: 0.9;
+	 min-width: 960px;
+}
+.topnav {
+  background-color:solid transparent;
+  width: 40%;
+  float: right;
+  overflow: hidden;
+  
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font: bold;
+  font-family: "castellar";
+}
+
+
+.topnav a:hover {
+  background-color: solid transparent;
+  color: white;
+  opacity: 0.5;
+  transition-duration: 0.5s;
+}
+
+
+.topnav a.active {
+  background-color: solid transparent;
+  color: white;
+}
+h2{
+	color: aqua;
+	text-align: center;
+	font: bold;
+	font-family: "Copperplate Gothic";
+	text-align: left;
+}
+
+
+/* CONTAINER ROW 1 BELOW*/
+
+.container1{
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 240px auto;	
+	top: -150px;
+	background: solid transparent;
+}
+img {
+	min-width:100%; 
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    display: block;
+}
+
+.container1 .box{
+	position: relative;
+	height: calc(300px - 30px);
+	width: calc(400px - 30px);
+	background: aqua;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+
+.bottom-left {
+  position: relative;
+  bottom: 100px;
+  left:150px;
+  z-index: 3;
+  font-family: "stencil";
+  color:darkgreen;
+}
+
+.bottom-left:hover{
+	opacity: 0;
+	transition: 0.5s;
+}
+.container1 .box .icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(to bottom right, #382b5c, #000);
+	transition: 0.5s;
+	z-index: 1;
+}
+.container1 .box:hover .icon{
+	top: 20%;
+	left: calc(50% - 40px);
+	top: calc(50% - 40px);
+	height: 65px;
+	width: 65px;
+	border-radius: 50%;
+	opacity: 0;	
+}
+.container1
+ .box .icon .fa
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 40px;
+	transition: 0.5s;
+	color: yellow; 
+}
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+.container1 .box .button_container {
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: 70%;
+}
+
+.container1 .box .button_container .btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.container1 .box .button_container .btn span {
+  position: relative; 
+  z-index: 1;
+  color:red
+}
+
+.container1 .box .button_container .btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.container1 .box .button_container .btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.container1 .box .button_container .link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.container1 .box .button_container .link a {
+  color: #000;
+  font-size: 25px; 
+}
+
+
+.box1txt{
+	color: yellow;
+	text-align:center;
+	font: bold;
+	font-family: "comic sans ms", cursive, serif;
+}
+
+
+/* CONTAINER ROW 2 BELOW*/
+
+
+.container2{
+	position: relative;
+	width: 1200px;
+	height: 300px;
+	margin: 240px auto;	
+	top: -350px;
+	background: solid transparent;
+}
+
+.container2 .box{
+	position: relative;
+	height: calc(300px - 30px);
+	width: calc(400px - 30px);
+	background: aqua;
+	float: left;
+	margin: 15px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+
+.bottom-left {
+  position: relative;
+  bottom: 100px;
+  left:150px;
+  z-index: 3;
+  font-family: "stencil";
+  color:darkgreen;
+}
+
+.bottom-left:hover{
+	opacity: 0;
+	transition: 0.5s;
+}
+.container2 .box .icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+    background-image: linear-gradient(to bottom right, #382b5c, #000);
+	transition: 0.5s;
+	z-index: 1;
+}
+.container2 .box:hover .icon{
+	top: 20%;
+	left: calc(50% - 40px);
+	top: calc(50% - 40px);
+	height: 65px;
+	width: 65px;
+	border-radius: 50%;
+	opacity: 0;	
+}
+.container2 .box .icon .fa
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 40px;
+	transition: 0.5s;
+	color: yellow; 
+}
+.container2 .box .button_container {
+	position: absolute;
+  left: 0;
+  right: 0;
+  top: 70%;
+}
+
+.container2 .box .button_container .btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 17px 60px;
+  margin: 0 auto;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.container2 .box .button_container .btn span {
+  position: relative; 
+  z-index: 1;
+  color:red
+}
+
+.container2 .box .button_container .btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.container2 .box .button_container .btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.container2 .box .button_container .link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.container2 .box .button_container .link a {
+  color: #000;
+  font-size: 25px; 
+}
+
+.box2txt{
+	color: yellow;
+	text-align:center;
+	font: bold;
+	font-family: "comic sans ms", cursive, serif;
+}
